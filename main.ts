@@ -14,6 +14,7 @@ const game = new Game({
   ],
 });
 
+// 此处还在考虑如何设置默认场景的宽高
 game.scene.transform.size = {
   width: 750,
   height: 1000,
@@ -42,10 +43,16 @@ text.addComponent(
         color: 0x84c35f,
       },
       {
-        value: "互动游戏开发体系！",
+        value: "互动游戏",
         fontSize: 36,
         fontWeight: "normal",
         color: 0xffffff,
+      },
+      {
+        value: "开发体系！",
+        fontSize: 36,
+        fontWeight: "normal",
+        color: 0xebe44f,
       },
     ],
   })
